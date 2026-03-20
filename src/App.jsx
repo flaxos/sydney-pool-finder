@@ -1,15 +1,18 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Map } from './components/Map'
 import { SearchBar } from './components/SearchBar'
 import { FilterBar } from './components/FilterBar'
 import { VenueList } from './components/VenueList'
 import { VenueCard } from './components/VenueCard'
 import { Legend } from './components/Legend'
+import { SuggestVenueForm } from './components/SuggestVenueForm'
 import { useVenues } from './hooks/useVenues'
 import { useGeolocation } from './hooks/useGeolocation'
+import { useVerifications } from './hooks/useVerifications'
 
 function App() {
   const { position, error: geoError, loading: geoLoading, locate } = useGeolocation()
+  const { getVerification, verify, isVerifiedByUser } = useVerifications()
   const [nearMeActive, setNearMeActive] = useState(false)
 
   const {
@@ -32,6 +35,7 @@ function App() {
     setHappyHour,
     brandFilter,
     setBrandFilter,
+    allVenues,
   } = useVenues(nearMeActive ? position : null)
 
   const handleNearMe = () => {
@@ -43,8 +47,30 @@ function App() {
     setNearMeActive(false)
   }
 
-  const [selectedVenue, setSelectedVenue] = useState(null)
+  // Check URL for a venue param on mount to set initial state
+  const initialVenue = () => {
+    const params = new URLSearchParams(window.location.search)
+    const venueId = params.get('venue')
+    if (venueId) {
+      return allVenues.find((v) => v.id === venueId) || null
+    }
+    return null
+  }
+
+  const [selectedVenue, setSelectedVenue] = useState(initialVenue)
   const [panelOpen, setPanelOpen] = useState(true)
+  const [showSuggestForm, setShowSuggestForm] = useState(false)
+
+  // Sync selectedVenue to URL
+  useEffect(() => {
+    const url = new URL(window.location)
+    if (selectedVenue) {
+      url.searchParams.set('venue', selectedVenue.id)
+    } else {
+      url.searchParams.delete('venue')
+    }
+    window.history.replaceState({}, '', url)
+  }, [selectedVenue])
 
   const handleSelectVenue = (venue) => {
     setSelectedVenue(venue)
@@ -138,6 +164,12 @@ function App() {
               Could not get your location: {geoError}
             </p>
           )}
+          <button
+            onClick={() => setShowSuggestForm(true)}
+            className="text-xs text-blue-600 hover:text-blue-800 underline mt-1"
+          >
+            Suggest a venue
+          </button>
         </div>
 
         <SearchBar value={search} onChange={setSearch} />
@@ -167,6 +199,9 @@ function App() {
             <VenueCard
               venue={selectedVenue}
               onClose={() => setSelectedVenue(null)}
+              onVerify={verify}
+              verification={getVerification(selectedVenue.id)}
+              alreadyVerified={isVerifiedByUser(selectedVenue.id)}
             />
           ) : (
             <VenueList
@@ -177,6 +212,10 @@ function App() {
           )}
         </div>
       </div>
+
+      {showSuggestForm && (
+        <SuggestVenueForm onClose={() => setShowSuggestForm(false)} />
+      )}
     </div>
   )
 }
