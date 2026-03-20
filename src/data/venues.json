@@ -1,0 +1,127 @@
+[
+  {
+    "id": "shark-hotel-surry-hills",
+    "name": "The Shark Hotel",
+    "address": "161 Commonwealth St, Surry Hills NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.8803,
+    "lng": 151.2098,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "green",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "$2 per game",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": ["food available", "coin operated"],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Classic pub pool setup. Can get busy on Friday/Saturday nights."
+  },
+  {
+    "id": "courthouse-hotel-newtown",
+    "name": "Courthouse Hotel",
+    "address": "202 Australia St, Newtown NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.8976,
+    "lng": 151.1793,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "green",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "$2 per game",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": ["coin operated", "outdoor area", "food available"],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "kellys-on-king-newtown",
+    "name": "Kelly's On King",
+    "address": "25 King St, Newtown NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.8951,
+    "lng": 151.1790,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": ["late night", "food available"],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Late night venue, pool tables upstairs."
+  },
+  {
+    "id": "stoned-crow-crows-nest",
+    "name": "The Stoned Crow",
+    "address": "3 Alexander St, Crows Nest NSW 2065",
+    "suburb": "Crows Nest",
+    "lat": -33.8268,
+    "lng": 151.2017,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": ["food available"],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "enmore-hotel-enmore",
+    "name": "Enmore Hotel",
+    "address": "1 Edgeware Rd, Enmore NSW 2042",
+    "suburb": "Enmore",
+    "lat": -33.8995,
+    "lng": 151.1732,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": "Leopard print felt reportedly spotted here"
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": ["food available", "outdoor area"],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Lana from the Slack channel mentioned the leopard print table here."
+  }
+]
