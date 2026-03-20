@@ -1,29 +1,27 @@
-import { useState, useCallback, useRef } from 'react'
-
-const STORAGE_KEY = 'pool-finder-verifications'
-const SESSION_KEY = 'pool-finder-verified-this-session'
-
-function loadVerifications() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    return raw ? JSON.parse(raw) : {}
-  } catch {
-    return {}
-  }
-}
-
-function loadSessionVerified() {
-  try {
-    const raw = sessionStorage.getItem(SESSION_KEY)
-    return raw ? new Set(JSON.parse(raw)) : new Set()
-  } catch {
-    return new Set()
-  }
-}
+import { useState, useCallback, useEffect } from 'react'
+import {
+  fetchVerifications,
+  verifyVenue,
+  isSessionVerified,
+  markSessionVerified,
+} from '../services/verificationService'
 
 export function useVerifications() {
-  const [verifications, setVerifications] = useState(loadVerifications)
-  const sessionVerifiedRef = useRef(loadSessionVerified())
+  const [verifications, setVerifications] = useState({})
+
+  useEffect(() => {
+    let cancelled = false
+
+    async function load() {
+      const data = await fetchVerifications()
+      if (!cancelled) {
+        setVerifications(data)
+      }
+    }
+
+    load()
+    return () => { cancelled = true }
+  }, [])
 
   const getVerification = useCallback(
     (venueId) => verifications[venueId] || null,
@@ -31,33 +29,31 @@ export function useVerifications() {
   )
 
   const isVerifiedByUser = useCallback(
-    (venueId) => sessionVerifiedRef.current.has(venueId),
+    (venueId) => isSessionVerified(venueId),
     []
   )
 
-  const verify = useCallback((venueId) => {
-    if (sessionVerifiedRef.current.has(venueId)) return
+  const verify = useCallback(async (venueId) => {
+    if (isSessionVerified(venueId)) return
 
-    const today = new Date().toISOString().split('T')[0]
+    const result = await verifyVenue(venueId)
+    if (result.success) {
+      markSessionVerified(venueId)
 
-    setVerifications((prev) => {
-      const existing = prev[venueId] || { count: 0, lastVerified: null }
-      const next = {
-        ...prev,
-        [venueId]: {
-          count: existing.count + 1,
-          lastVerified: today,
-        },
-      }
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
-      return next
-    })
+      // Update local state to reflect the new verification
+      setVerifications((prev) => {
+        const existing = prev[venueId] || { count: 0, lastVerified: null }
+        return {
+          ...prev,
+          [venueId]: {
+            count: existing.count + 1,
+            lastVerified: new Date().toISOString().split('T')[0],
+          },
+        }
+      })
+    }
 
-    sessionVerifiedRef.current.add(venueId)
-    sessionStorage.setItem(
-      SESSION_KEY,
-      JSON.stringify([...sessionVerifiedRef.current])
-    )
+    return result
   }, [])
 
   return { getVerification, verify, isVerifiedByUser }

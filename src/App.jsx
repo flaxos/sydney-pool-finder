@@ -36,6 +36,8 @@ function App() {
     brandFilter,
     setBrandFilter,
     allVenues,
+    loading,
+    error,
   } = useVenues(nearMeActive ? position : null)
 
   const handleNearMe = () => {
@@ -47,19 +49,21 @@ function App() {
     setNearMeActive(false)
   }
 
-  // Check URL for a venue param on mount to set initial state
-  const initialVenue = () => {
+  const [selectedVenue, setSelectedVenue] = useState(null)
+  const [panelOpen, setPanelOpen] = useState(true)
+  const [showSuggestForm, setShowSuggestForm] = useState(false)
+
+  // Once venues are loaded, check URL for a venue param to select
+  const [initialVenueResolved, setInitialVenueResolved] = useState(false)
+  if (!initialVenueResolved && allVenues.length > 0) {
     const params = new URLSearchParams(window.location.search)
     const venueId = params.get('venue')
     if (venueId) {
-      return allVenues.find((v) => v.id === venueId) || null
+      const found = allVenues.find((v) => v.id === venueId)
+      if (found) setSelectedVenue(found)
     }
-    return null
+    setInitialVenueResolved(true)
   }
-
-  const [selectedVenue, setSelectedVenue] = useState(initialVenue)
-  const [panelOpen, setPanelOpen] = useState(true)
-  const [showSuggestForm, setShowSuggestForm] = useState(false)
 
   // Sync selectedVenue to URL
   useEffect(() => {
@@ -87,6 +91,13 @@ function App() {
           userPosition={nearMeActive ? position : null}
         />
         <Legend />
+        {loading && (
+          <div className="absolute inset-0 z-[500] flex items-center justify-center pointer-events-none">
+            <span className="bg-white/90 text-gray-700 text-sm font-medium px-4 py-2 rounded-lg shadow animate-pulse">
+              Loading venues...
+            </span>
+          </div>
+        )}
       </div>
 
       {/* Mobile bottom sheet */}
@@ -171,6 +182,12 @@ function App() {
             Suggest a venue
           </button>
         </div>
+
+        {error && (
+          <div className="px-4 py-2 bg-amber-50 border-b border-amber-200 text-amber-800 text-xs">
+            Could not load venues. Using cached data.
+          </div>
+        )}
 
         <SearchBar value={search} onChange={setSearch} />
 
