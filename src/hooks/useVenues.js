@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import venueData from '../data/venues.json'
+import { useMemo, useState, useEffect } from 'react'
+import { fetchVenues } from '../services/venueService'
 import {
   matchesSuburb,
   matchesTableCount,
@@ -13,6 +13,10 @@ import {
 import { haversine } from '../utils/distance'
 
 export function useVenues(userPosition) {
+  const [allVenues, setAllVenues] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+
   const [search, setSearch] = useState('')
   const [suburb, setSuburb] = useState('')
   const [tableFilter, setTableFilter] = useState('')
@@ -22,27 +26,53 @@ export function useVenues(userPosition) {
   const [happyHour, setHappyHour] = useState(false)
   const [brandFilter, setBrandFilter] = useState('')
 
+  useEffect(() => {
+    let cancelled = false
+
+    async function load() {
+      try {
+        const data = await fetchVenues()
+        if (!cancelled) {
+          setAllVenues(data)
+          setError(null)
+        }
+      } catch (err) {
+        console.error('Failed to load venues:', err)
+        if (!cancelled) {
+          setError(err)
+        }
+      } finally {
+        if (!cancelled) {
+          setLoading(false)
+        }
+      }
+    }
+
+    load()
+    return () => { cancelled = true }
+  }, [])
+
   const suburbs = useMemo(
-    () => [...new Set(venueData.map((v) => v.suburb))].sort(),
-    []
+    () => [...new Set(allVenues.map((v) => v.suburb))].sort(),
+    [allVenues]
   )
 
   const brands = useMemo(
     () =>
       [
         ...new Set(
-          venueData.flatMap((v) =>
+          allVenues.flatMap((v) =>
             Array.isArray(v.tables?.brands) ? v.tables.brands : []
           )
         ),
       ]
         .filter(Boolean)
         .sort((a, b) => a.localeCompare(b)),
-    []
+    [allVenues]
   )
 
   const filtered = useMemo(() => {
-    const results = venueData.filter(
+    const results = allVenues.filter(
       (v) =>
         matchesSearch(v, search) &&
         matchesSuburb(v, suburb) &&
@@ -65,13 +95,15 @@ export function useVenues(userPosition) {
 
     withDistance.sort((a, b) => a.distance - b.distance)
     return withDistance
-  }, [search, suburb, tableFilter, featureFilters, freeTonight, compTonight, happyHour, brandFilter, userPosition])
+  }, [allVenues, search, suburb, tableFilter, featureFilters, freeTonight, compTonight, happyHour, brandFilter, userPosition])
 
   return {
     venues: filtered,
-    allVenues: venueData,
+    allVenues,
     suburbs,
     brands,
+    loading,
+    error,
     search,
     setSearch,
     suburb,

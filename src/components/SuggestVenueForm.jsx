@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useSubmissions } from '../hooks/useSubmissions'
+import { submitVenue } from '../services/submissionService'
 
 function toKebabCase(str) {
   return str
@@ -10,8 +10,9 @@ function toKebabCase(str) {
 }
 
 export function SuggestVenueForm({ onClose }) {
-  const { addSubmission } = useSubmissions()
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [submitError, setSubmitError] = useState(null)
   const [errors, setErrors] = useState({})
 
   const [form, setForm] = useState({
@@ -42,29 +43,38 @@ export function SuggestVenueForm({ onClose }) {
     return Object.keys(next).length === 0
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     if (!validate()) return
 
     const id = toKebabCase(`${form.name} ${form.suburb}`)
 
-    addSubmission({
-      id,
-      name: form.name.trim(),
-      address: form.address.trim(),
-      suburb: form.suburb.trim(),
-      tableCount: Number(form.tableCount),
-      pricing: form.pricing.trim() || null,
-      notes: form.notes.trim() || null,
-      status: 'pending',
-      source: 'user-submission',
-      submittedAt: new Date().toISOString(),
-    })
+    setSubmitting(true)
+    setSubmitError(null)
 
-    setSubmitted(true)
-    setTimeout(() => {
-      onClose()
-    }, 2000)
+    try {
+      await submitVenue({
+        id,
+        name: form.name.trim(),
+        address: form.address.trim(),
+        suburb: form.suburb.trim(),
+        tableCount: Number(form.tableCount),
+        pricing: form.pricing.trim() || null,
+        notes: form.notes.trim() || null,
+        status: 'pending',
+        source: 'user-submission',
+        submittedAt: new Date().toISOString(),
+      })
+
+      setSubmitted(true)
+      setTimeout(() => {
+        onClose()
+      }, 2000)
+    } catch {
+      setSubmitError('Something went wrong. Please try again.')
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
@@ -170,11 +180,18 @@ export function SuggestVenueForm({ onClose }) {
               />
             </Field>
 
+            {submitError && (
+              <p className="text-xs text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+                {submitError}
+              </p>
+            )}
+
             <button
               type="submit"
-              className="w-full py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              disabled={submitting}
+              className="w-full py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Submit suggestion
+              {submitting ? 'Submitting...' : 'Submit suggestion'}
             </button>
           </form>
         )}
