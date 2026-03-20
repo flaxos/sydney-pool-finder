@@ -84,28 +84,65 @@ Each venue is a JSON object:
 
 ## Key Features (Priority Order)
 
-### MVP (v0.1)
-- [ ] Interactive Leaflet map centred on Sydney
-- [ ] Venue markers with popup showing name, table count, suburb
-- [ ] Venue list panel (sidebar on desktop, bottom sheet on mobile)
-- [ ] Filter by: suburb, number of tables (1 / multiple)
-- [ ] Seed data from Google My Maps (manual conversion)
-- [ ] Mobile-responsive layout
+### MVP (v0.1) ✓
+- [x] Interactive Leaflet map centred on Sydney
+- [x] Venue markers with popup showing name, table count, suburb
+- [x] Venue list panel (sidebar on desktop, bottom sheet on mobile)
+- [x] Filter by: suburb, number of tables (1 / multiple)
+- [x] Seed data from Google My Maps (KML export, 130 venues)
+- [x] Mobile-responsive layout
 
-### v0.2
-- [ ] "Near me" geolocation sorting
-- [ ] Filter by: free pool nights, happy hour, comp nights
-- [ ] Filter by: table brand
-- [ ] Venue detail card with full info
-- [ ] Search by venue name or suburb
-- [ ] Custom map markers (single table vs multiple, colour-coded)
+### v0.2 ✓
+- [x] "Near me" geolocation sorting
+- [x] Filter by: free pool nights, happy hour, comp nights
+- [x] Filter by: table brand
+- [x] Venue detail card with full info
+- [x] Search by venue name or suburb
+- [x] Custom map markers (single table vs multiple, colour-coded)
 
-### v0.3 (if it takes off)
-- [ ] "Suggest a venue" form (writes to a submissions queue)
-- [ ] PWA manifest + service worker for offline/installable
-- [ ] Shareable venue links (URL params)
-- [ ] "Verify" button for community confirmation
-- [ ] Backend migration (Supabase or SQLite via API)
+### v0.3
+- [x] "Suggest a venue" form (writes to a submissions queue)
+- [x] PWA manifest + service worker for offline/installable
+- [x] Shareable venue links (URL params)
+- [x] "Verify" button for community confirmation
+- [x] Backend migration (Supabase with JSON fallback)
+
+### v0.4 — Android App + UX Polish
+- [ ] Configure Capacitor for Android wrapper (or TWA if sticking pure-PWA)
+- [ ] Test PWA install flow on Android Chrome — fix any manifest/service worker issues
+- [ ] Set up Play Store developer account + create store listing (screenshots, description, privacy policy)
+- [ ] Build signed APK/AAB and submit to Play Store internal testing track
+- [ ] Implement marker clustering via `react-leaflet-cluster` for zoomed-out views (130+ markers overlap badly)
+- [ ] Add dark mode toggle — persist preference in localStorage, respect `prefers-color-scheme`
+- [ ] Improve mobile bottom sheet gestures — snap points (peek / half / full), swipe-to-dismiss
+- [ ] Add first-run onboarding overlay (3 panels: map basics, filters, "near me" + suggest venue)
+- [ ] Add pull-to-refresh on venue list (mobile)
+- [ ] Promote Play Store listing to production track after internal testing passes
+
+### v0.5 — Data Quality + Admin Panel + CI/CD
+- [ ] Build admin panel route (`/admin`) — protected by Supabase auth
+- [ ] Admin: submissions review queue — approve, edit, reject suggested venues
+- [ ] Admin: venue editor — inline edit any venue field, bulk status changes
+- [ ] Admin: moderation log — track who changed what and when
+- [ ] Backfill pricing data for top 50 most-viewed unverified venues
+- [ ] Add "Is this info still correct?" prompt on venue cards older than 6 months
+- [ ] Add "Add missing details" CTA on venues with sparse data
+- [ ] Set up GitHub Actions CI — lint, build, Vitest unit tests on PR
+- [ ] Add Vitest + React Testing Library — tests for useVenues hook, filter logic, distance calc
+- [ ] Set up staging environment (Cloudflare Pages preview deployments per branch)
+- [ ] Auto-deploy main to production on merge
+
+### v0.6 — Social Features + Analytics
+- [ ] Venue photo uploads (Supabase Storage, max 3 per venue)
+- [ ] Admin: photo moderation queue
+- [ ] Display approved photos in venue detail card (carousel on mobile)
+- [ ] Star ratings (1–5) per venue — one rating per device/session
+- [ ] Display average rating + count on venue cards and markers
+- [ ] "Favourite" venues — localStorage (anonymous) or Supabase user profile
+- [ ] "My favourites" filter/view
+- [ ] Short text reviews (max 280 chars) — moderated via admin panel
+- [ ] Analytics dashboard (admin) — popular venues, search trends, community health
+- [ ] Optional: user accounts via Supabase Auth (Google OAuth)
 
 ---
 
