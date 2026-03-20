@@ -1,15 +1,18 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Map } from './components/Map'
 import { SearchBar } from './components/SearchBar'
 import { FilterBar } from './components/FilterBar'
 import { VenueList } from './components/VenueList'
 import { VenueCard } from './components/VenueCard'
 import { Legend } from './components/Legend'
+import { SuggestVenueForm } from './components/SuggestVenueForm'
 import { useVenues } from './hooks/useVenues'
 import { useGeolocation } from './hooks/useGeolocation'
+import { useVerifications } from './hooks/useVerifications'
 
 function App() {
   const { position, error: geoError, loading: geoLoading, locate } = useGeolocation()
+  const { getVerification, verify, isVerifiedByUser } = useVerifications()
   const [nearMeActive, setNearMeActive] = useState(false)
 
   const {
@@ -32,6 +35,9 @@ function App() {
     setHappyHour,
     brandFilter,
     setBrandFilter,
+    allVenues,
+    loading,
+    error,
   } = useVenues(nearMeActive ? position : null)
 
   const handleNearMe = () => {
@@ -45,6 +51,30 @@ function App() {
 
   const [selectedVenue, setSelectedVenue] = useState(null)
   const [panelOpen, setPanelOpen] = useState(true)
+  const [showSuggestForm, setShowSuggestForm] = useState(false)
+
+  // Once venues are loaded, check URL for a venue param to select
+  const [initialVenueResolved, setInitialVenueResolved] = useState(false)
+  if (!initialVenueResolved && allVenues.length > 0) {
+    const params = new URLSearchParams(window.location.search)
+    const venueId = params.get('venue')
+    if (venueId) {
+      const found = allVenues.find((v) => v.id === venueId)
+      if (found) setSelectedVenue(found)
+    }
+    setInitialVenueResolved(true)
+  }
+
+  // Sync selectedVenue to URL
+  useEffect(() => {
+    const url = new URL(window.location)
+    if (selectedVenue) {
+      url.searchParams.set('venue', selectedVenue.id)
+    } else {
+      url.searchParams.delete('venue')
+    }
+    window.history.replaceState({}, '', url)
+  }, [selectedVenue])
 
   const handleSelectVenue = (venue) => {
     setSelectedVenue(venue)
@@ -61,6 +91,13 @@ function App() {
           userPosition={nearMeActive ? position : null}
         />
         <Legend />
+        {loading && (
+          <div className="absolute inset-0 z-[500] flex items-center justify-center pointer-events-none">
+            <span className="bg-white/90 text-gray-700 text-sm font-medium px-4 py-2 rounded-lg shadow animate-pulse">
+              Loading venues...
+            </span>
+          </div>
+        )}
       </div>
 
       {/* Mobile bottom sheet */}
@@ -138,7 +175,19 @@ function App() {
               Could not get your location: {geoError}
             </p>
           )}
+          <button
+            onClick={() => setShowSuggestForm(true)}
+            className="text-xs text-blue-600 hover:text-blue-800 underline mt-1"
+          >
+            Suggest a venue
+          </button>
         </div>
+
+        {error && (
+          <div className="px-4 py-2 bg-amber-50 border-b border-amber-200 text-amber-800 text-xs">
+            Could not load venues. Using cached data.
+          </div>
+        )}
 
         <SearchBar value={search} onChange={setSearch} />
 
@@ -167,16 +216,33 @@ function App() {
             <VenueCard
               venue={selectedVenue}
               onClose={() => setSelectedVenue(null)}
+              onVerify={verify}
+              verification={getVerification(selectedVenue.id)}
+              alreadyVerified={isVerifiedByUser(selectedVenue.id)}
             />
           ) : (
             <VenueList
               venues={venues}
               onSelectVenue={handleSelectVenue}
               selectedId={selectedVenue?.id}
+              onClearFilters={() => {
+                setSearch('')
+                setSuburb('')
+                setTableFilter('')
+                setFeatureFilters([])
+                setFreeTonight(false)
+                setCompTonight(false)
+                setHappyHour(false)
+                setBrandFilter('')
+              }}
             />
           )}
         </div>
       </div>
+
+      {showSuggestForm && (
+        <SuggestVenueForm onClose={() => setShowSuggestForm(false)} />
+      )}
     </div>
   )
 }

@@ -1,8 +1,20 @@
-export function VenueList({ venues, onSelectVenue, selectedId }) {
+export function VenueList({ venues, onSelectVenue, selectedId, onClearFilters }) {
   if (venues.length === 0) {
     return (
-      <div className="p-4 text-center text-gray-400 text-sm">
-        No venues match your filters.
+      <div className="flex flex-col items-center justify-center p-8 text-center">
+        <div className="text-4xl mb-3">🎱</div>
+        <p className="text-sm font-medium text-gray-700 mb-1">No venues found</p>
+        <p className="text-xs text-gray-400 mb-4">
+          Try widening your search or removing some filters
+        </p>
+        {onClearFilters && (
+          <button
+            onClick={onClearFilters}
+            className="px-4 py-2 text-xs font-medium text-blue-600 bg-blue-50 rounded-full hover:bg-blue-100 transition-colors"
+          >
+            Clear all filters
+          </button>
+        )}
       </div>
     )
   }
