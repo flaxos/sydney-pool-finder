@@ -24,3 +24,35 @@ export function matchesSearch(venue, query) {
     venue.address.toLowerCase().includes(q)
   )
 }
+
+function getTodayName() {
+  return new Date().toLocaleDateString('en-AU', { weekday: 'long' })
+}
+
+export function matchesFreeTonight(venue) {
+  const today = getTodayName()
+  return (
+    Array.isArray(venue.pricing?.freeNights) &&
+    venue.pricing.freeNights.some((d) => d.toLowerCase() === today.toLowerCase())
+  )
+}
+
+export function matchesCompTonight(venue) {
+  const today = getTodayName()
+  return (
+    Array.isArray(venue.pricing?.compNights) &&
+    venue.pricing.compNights.some((d) => d.toLowerCase() === today.toLowerCase())
+  )
+}
+
+export function matchesHasHappyHour(venue) {
+  return Boolean(venue.pricing?.happyHour)
+}
+
+export function matchesBrand(venue, brand) {
+  if (!brand) return true
+  return (
+    Array.isArray(venue.tables?.brands) &&
+    venue.tables.brands.some((b) => b.toLowerCase() === brand.toLowerCase())
+  )
+}

@@ -18,7 +18,10 @@
       "freeNights": [],
       "compNights": []
     },
-    "features": ["food available", "coin operated"],
+    "features": [
+      "food available",
+      "coin operated"
+    ],
     "status": "unverified",
     "source": "community",
     "lastVerified": "",
@@ -43,7 +46,11 @@
       "freeNights": [],
       "compNights": []
     },
-    "features": ["coin operated", "outdoor area", "food available"],
+    "features": [
+      "coin operated",
+      "outdoor area",
+      "food available"
+    ],
     "status": "unverified",
     "source": "community",
     "lastVerified": "",
@@ -55,7 +62,7 @@
     "address": "25 King St, Newtown NSW 2042",
     "suburb": "Newtown",
     "lat": -33.8951,
-    "lng": 151.1790,
+    "lng": 151.179,
     "tables": {
       "count": 2,
       "brands": [],
@@ -68,7 +75,10 @@
       "freeNights": [],
       "compNights": []
     },
-    "features": ["late night", "food available"],
+    "features": [
+      "late night",
+      "food available"
+    ],
     "status": "unverified",
     "source": "community",
     "lastVerified": "",
@@ -93,7 +103,9 @@
       "freeNights": [],
       "compNights": []
     },
-    "features": ["food available"],
+    "features": [
+      "food available"
+    ],
     "status": "unverified",
     "source": "community",
     "lastVerified": "",
@@ -118,10 +130,3205 @@
       "freeNights": [],
       "compNights": []
     },
-    "features": ["food available", "outdoor area"],
+    "features": [
+      "food available",
+      "outdoor area"
+    ],
     "status": "unverified",
     "source": "community",
     "lastVerified": "",
-    "notes": "Lana from the Slack channel mentioned the leopard print table here."
+    "notes": "Leopard print felt reportedly spotted here."
+  },
+  {
+    "id": "bar-cleveland",
+    "name": "Bar Cleveland",
+    "address": "Cleveland Street, Redfern, NSW 2010",
+    "suburb": "Redfern",
+    "lat": -33.891884,
+    "lng": 151.214145,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "clock",
+    "name": "The Clock",
+    "address": "470 Crown Street, Surry Hills, NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.886295,
+    "lng": 151.21396,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "trocadero-room",
+    "name": "The Trocadero Room",
+    "address": "156 Enmore Road, Enmore, NSW 2042",
+    "suburb": "Enmore",
+    "lat": -33.899117,
+    "lng": 151.173153,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "coopers-hotel",
+    "name": "The Coopers Hotel",
+    "address": "221 King Street, Newtown, NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.89514,
+    "lng": 151.181579,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "warren-view-hotel",
+    "name": "The Warren View Hotel",
+    "address": "2 Stanmore Road, Enmore, NSW 2042",
+    "suburb": "Enmore",
+    "lat": -33.899562,
+    "lng": 151.170723,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "white-cockatoo-hotel",
+    "name": "White Cockatoo Hotel",
+    "address": "30 Terminus St, Petersham NSW 2049",
+    "suburb": "Petersham",
+    "lat": -33.893303,
+    "lng": 151.155718,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": "Pool table downstairs. Beloved Petersham landmark since 1886. Also has pinball."
+  },
+  {
+    "id": "annandale-hotel",
+    "name": "The Annandale Hotel",
+    "address": "M8 Motorway Tunnel, Annandale, NSW 2048",
+    "suburb": "Annandale",
+    "lat": -33.887422,
+    "lng": 151.171496,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "camelia-grove-hotel",
+    "name": "Camelia Grove Hotel",
+    "address": "Alexander Street, Alexandria, NSW 2015",
+    "suburb": "Alexandria",
+    "lat": -33.897872,
+    "lng": 151.192906,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "hotel-sweeneys",
+    "name": "Hotel Sweeney's",
+    "address": "Druitt Street, Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.872606,
+    "lng": 151.20585,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "erko-hotel",
+    "name": "The Erko Hotel",
+    "address": "Erskineville Road, Erskineville, NSW 2043",
+    "suburb": "Erskineville",
+    "lat": -33.899135,
+    "lng": 151.183435,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "three-weeds-rozelle",
+    "name": "Three Weeds Rozelle",
+    "address": "197 Evans Street, Rozelle, NSW 2039",
+    "suburb": "Rozelle",
+    "lat": -33.866307,
+    "lng": 151.170444,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "little-guy",
+    "name": "The Little Guy",
+    "address": "Glebe Point Road, Glebe, NSW 2037",
+    "suburb": "Glebe",
+    "lat": -33.882449,
+    "lng": 151.190381,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "red-lion-hotel",
+    "name": "The Red Lion Hotel",
+    "address": "Red Lion Street, Rozelle, NSW 2039",
+    "suburb": "Rozelle",
+    "lat": -33.86493,
+    "lng": 151.168814,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "petersham-bowling-club",
+    "name": "Petersham Bowling Club",
+    "address": "77 Brighton Street, Petersham, NSW 2049",
+    "suburb": "Petersham",
+    "lat": -33.892921,
+    "lng": 151.152482,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "henson-park-hotel",
+    "name": "Henson Park Hotel",
+    "address": "Illawarra Road, Marrickville, NSW 2204",
+    "suburb": "Marrickville",
+    "lat": -33.905157,
+    "lng": 151.161326,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "salisbury-hotel",
+    "name": "Salisbury Hotel",
+    "address": "118 Percival Road, Stanmore, NSW 2048",
+    "suburb": "Stanmore",
+    "lat": -33.893378,
+    "lng": 151.164065,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "cheers-sports-bar-grill",
+    "name": "Cheers Sports Bar & Grill",
+    "address": "565 George Street, Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.876598,
+    "lng": 151.20584,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "strike-bowling-chatswood",
+    "name": "Strike Bowling Chatswood",
+    "address": "65 Albert Avenue, NSW 2067",
+    "suburb": "Chatswood",
+    "lat": -33.798089,
+    "lng": 151.182479,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "grifter-brewing-co",
+    "name": "The Grifter Brewing Co.",
+    "address": "Enmore Road, Marrickville, NSW 2204",
+    "suburb": "Marrickville",
+    "lat": -33.904693,
+    "lng": 151.167659,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "bob-hawke-beer-and-leisure-centre",
+    "name": "The Bob Hawke Beer and Leisure Centre",
+    "address": "Sydney Street, Marrickville, NSW 2204",
+    "suburb": "Marrickville",
+    "lat": -33.911919,
+    "lng": 151.163938,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "polish-club-ashfield",
+    "name": "Polish Club Ashfield",
+    "address": "Joseph Street, Ashfield, NSW 2131",
+    "suburb": "Ashfield",
+    "lat": -33.89054,
+    "lng": 151.126695,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "wayward-brewing-co",
+    "name": "Wayward Brewing Co.",
+    "address": "1 Gehrig Lane, Annandale, NSW 2038",
+    "suburb": "Annandale",
+    "lat": -33.885745,
+    "lng": 151.17486,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "vic-on-the-park",
+    "name": "The Vic On The Park",
+    "address": "Addison Road, Marrickville, NSW 2204",
+    "suburb": "Marrickville",
+    "lat": -33.904193,
+    "lng": 151.168204,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "forest-lodge-hotel",
+    "name": "Forest Lodge Hotel",
+    "address": "Forest Street, Forest Lodge, NSW 2037",
+    "suburb": "Forest Lodge",
+    "lat": -33.883954,
+    "lng": 151.184649,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "native-rose-hotel",
+    "name": "The Native Rose Hotel",
+    "address": "68 Victoria Road, Rozelle, NSW 2039",
+    "suburb": "Rozelle",
+    "lat": -33.865898,
+    "lng": 151.172411,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "lansdowne-hotel",
+    "name": "The Lansdowne Hotel",
+    "address": "Grafton Lane, Chippendale, NSW 2008",
+    "suburb": "Chippendale",
+    "lat": -33.884794,
+    "lng": 151.195021,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "livingstone-hotel",
+    "name": "Livingstone Hotel",
+    "address": "116 New Canterbury Road, Petersham, NSW 2049",
+    "suburb": "Petersham",
+    "lat": -33.896744,
+    "lng": 151.15251,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "bells-hotel",
+    "name": "Bells Hotel",
+    "address": "Bourke Street, Woolloomooloo, NSW 2011",
+    "suburb": "Woolloomooloo",
+    "lat": -33.86892,
+    "lng": 151.219159,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "public-house-petersham",
+    "name": "Public House Petersham",
+    "address": "292-294 Stanmore Road, Petersham, NSW 2049",
+    "suburb": "Petersham",
+    "lat": -33.896692,
+    "lng": 151.159469,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "london-hotel",
+    "name": "The London Hotel",
+    "address": "234 Darling Street, Balmain, NSW 2041",
+    "suburb": "Balmain",
+    "lat": -33.858406,
+    "lng": 151.184537,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "kings-cross-hotel",
+    "name": "Kings Cross Hotel",
+    "address": "244-248 William Street, Potts Point, NSW 2011",
+    "suburb": "Potts Point",
+    "lat": -33.874903,
+    "lng": 151.222045,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "sneaky-possum",
+    "name": "Sneaky Possum",
+    "address": "1 Teggs Lane, Chippendale, NSW 2008",
+    "suburb": "Chippendale",
+    "lat": -33.887124,
+    "lng": 151.198931,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "chippo-hotel",
+    "name": "The Chippo Hotel",
+    "address": "Myrtle Street, Chippendale, NSW 2008",
+    "suburb": "Chippendale",
+    "lat": -33.887435,
+    "lng": 151.198636,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "penshurst-hotel",
+    "name": "Penshurst Hotel",
+    "address": "Victoria Avenue, Penshurst, NSW 2222",
+    "suburb": "Penshurst",
+    "lat": -33.965089,
+    "lng": 151.087902,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "pleasure-club",
+    "name": "Pleasure Club",
+    "address": "304-314 King Street, Newtown, NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.896993,
+    "lng": 151.179699,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "omalleys-hotel",
+    "name": "O'Malley's Hotel",
+    "address": "228 William Street, Woolloomooloo, NSW 2010",
+    "suburb": "Woolloomooloo",
+    "lat": -33.874967,
+    "lng": 151.221362,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "cricketers-arms-hotel",
+    "name": "The Cricketers Arms Hotel",
+    "address": "106 Fitzroy St, Surry Hills NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.88568,
+    "lng": 151.217187,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "purple",
+      "feltNotes": "Purple-topped pool table reported"
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": "Grungy pool room with a purple-topped pool table."
+  },
+  {
+    "id": "charlie-chans-bar-bottleshop",
+    "name": "Charlie Chans Bar & Bottleshop",
+    "address": "George Street, Haymarket, NSW 2000",
+    "suburb": "Haymarket",
+    "lat": -33.878339,
+    "lng": 151.205253,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "royal-george",
+    "name": "The Royal George",
+    "address": "320 George Street, Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.866195,
+    "lng": 151.207381,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "magpies-waitara",
+    "name": "Magpies Waitara",
+    "address": "Alexandria Parade, Waitara, NSW 2077",
+    "suburb": "Waitara",
+    "lat": -33.709736,
+    "lng": 151.104869,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "bristol",
+    "name": "The Bristol",
+    "address": "65 Sussex Street, Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.867722,
+    "lng": 151.203256,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "lord-gladstone-hotel",
+    "name": "The Lord Gladstone Hotel",
+    "address": "115 Regent Street, Chippendale, NSW 2008",
+    "suburb": "Chippendale",
+    "lat": -33.88778,
+    "lng": 151.201413,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "club-ashfield",
+    "name": "Club Ashfield",
+    "address": "Charlotte Street, Ashfield, NSW 2131",
+    "suburb": "Ashfield",
+    "lat": -33.887094,
+    "lng": 151.125909,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "chuck-and-sons-brewing-co",
+    "name": "Chuck and Son's Brewing Co.",
+    "address": "Unwins Bridge Road, St Peters, NSW 2044",
+    "suburb": "St Peters",
+    "lat": -33.909469,
+    "lng": 151.174956,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "new-britannia",
+    "name": "New Britannia",
+    "address": "Cleveland Street, Darlington, NSW 2008",
+    "suburb": "Darlington",
+    "lat": -33.888397,
+    "lng": 151.196437,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "redfern",
+    "name": "The Redfern",
+    "address": "Redfern Street, Redfern, NSW 2016",
+    "suburb": "Redfern",
+    "lat": -33.892706,
+    "lng": 151.201901,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "rose-hotel",
+    "name": "The Rose Hotel",
+    "address": "54 Cleveland St, Chippendale NSW 2008",
+    "suburb": "Chippendale",
+    "lat": -33.887874,
+    "lng": 151.195085,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [
+        "Wednesday",
+        "Sunday"
+      ],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "free pool"
+    ],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": "Free pool Wednesday from 7pm and all day Sunday."
+  },
+  {
+    "id": "office-hotel",
+    "name": "The Office Hotel",
+    "address": "68A Erskine Street, Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.866776,
+    "lng": 151.204524,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "welcome-hotel",
+    "name": "The Welcome Hotel",
+    "address": "91 Evans Street, Rozelle, NSW 2039",
+    "suburb": "Rozelle",
+    "lat": -33.862678,
+    "lng": 151.173412,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "village-days-brewing-co",
+    "name": "Village Days Brewing Co.",
+    "address": "1 Tennyson Road, Ryde, NSW 2111",
+    "suburb": "Ryde",
+    "lat": -33.823351,
+    "lng": 151.121812,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "royal-albert-hotel",
+    "name": "Royal Albert Hotel",
+    "address": "Reservoir Street, Surry Hills, NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.881214,
+    "lng": 151.211035,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "strawberry",
+    "name": "The Strawberry",
+    "address": "Little Buckingham Street, Surry Hills, NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.886524,
+    "lng": 151.208032,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "crowbar-sydney-ultimate-pig",
+    "name": "Crowbar Sydney & Ultimate Pig",
+    "address": "Balmain Road, Leichhardt, NSW 2040",
+    "suburb": "Leichhardt",
+    "lat": -33.887618,
+    "lng": 151.159357,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "marrickville-bowling-recreation-club",
+    "name": "Marrickville Bowling & Recreation Club",
+    "address": "91 Sydenham Road, Marrickville, NSW 2204",
+    "suburb": "Marrickville",
+    "lat": -33.910465,
+    "lng": 151.164101,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "bar-broadway",
+    "name": "Bar Broadway",
+    "address": "Broadway, Chippendale, NSW 2008",
+    "suburb": "Chippendale",
+    "lat": -33.884237,
+    "lng": 151.201811,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "ettis",
+    "name": "Etti's",
+    "address": "547 Sydney Road, Seaforth, NSW 2092",
+    "suburb": "Seaforth",
+    "lat": -33.797356,
+    "lng": 151.251913,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "blackwattle-bar-brewery",
+    "name": "Blackwattle Bar + Brewery",
+    "address": "McEvoy Street, Alexandria, NSW 2015",
+    "suburb": "Alexandria",
+    "lat": -33.902122,
+    "lng": 151.199516,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "sanctuary-hotel",
+    "name": "Sanctuary Hotel",
+    "address": "545 Kent Street, Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.875963,
+    "lng": 151.205156,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "grand-hotel-rockdale",
+    "name": "Grand Hotel Rockdale",
+    "address": "King Lane, Rockdale, NSW 2216",
+    "suburb": "Rockdale",
+    "lat": -33.951795,
+    "lng": 151.138283,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "intersection-tavern",
+    "name": "The Intersection Tavern",
+    "address": "Ramsgate Road, Ramsgate, NSW 2217",
+    "suburb": "Ramsgate",
+    "lat": -33.984316,
+    "lng": 151.136009,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "philter-brewing",
+    "name": "Philter Brewing",
+    "address": "92 Sydenham Road, Marrickville, NSW 2204",
+    "suburb": "Marrickville",
+    "lat": -33.910251,
+    "lng": 151.162646,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "rocksia-hotel",
+    "name": "Rocksia Hotel",
+    "address": "300-306 Princes Highway, Arncliffe, NSW 2205",
+    "suburb": "Arncliffe",
+    "lat": -33.943758,
+    "lng": 151.141908,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "union-hotel",
+    "name": "Union Hotel",
+    "address": "Union Street, Newtown, NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.903929,
+    "lng": 151.180346,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "bank-tavern",
+    "name": "Bank Tavern",
+    "address": "Post Office Lane, Kogarah, NSW 2217",
+    "suburb": "Kogarah",
+    "lat": -33.964254,
+    "lng": 151.132722,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "town-hall-hotel-newtown",
+    "name": "Town Hall Hotel Newtown",
+    "address": "330 King Street, Newtown, NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.898,
+    "lng": 151.17861,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "cambridge-tavern",
+    "name": "Cambridge Tavern",
+    "address": "Alan Street, Fairfield, NSW 2165",
+    "suburb": "Fairfield",
+    "lat": -33.86981,
+    "lng": 150.959318,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "cricketers-balmain",
+    "name": "The Cricketers Balmain",
+    "address": "Ford Street, Balmain, NSW 2041",
+    "suburb": "Balmain",
+    "lat": -33.857616,
+    "lng": 151.182101,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "royal-sheaf-hotel",
+    "name": "Royal Sheaf Hotel",
+    "address": "Liverpool Road, Burwood, NSW 2134",
+    "suburb": "Burwood",
+    "lat": -33.887349,
+    "lng": 151.101383,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "duke-of-enmore",
+    "name": "The Duke of Enmore",
+    "address": "148 Enmore Road, Enmore, NSW 2042",
+    "suburb": "Enmore",
+    "lat": -33.898966,
+    "lng": 151.173493,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "bat-ball-hotel",
+    "name": "The Bat & Ball Hotel",
+    "address": "495 Cleveland St, Redfern NSW 2016",
+    "suburb": "Redfern",
+    "lat": -33.892326,
+    "lng": 151.216515,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": "Two pool tables in the sunny games room, along with darts."
+  },
+  {
+    "id": "huntsbury-hotel",
+    "name": "Huntsbury Hotel",
+    "address": "125 New Canterbury Road, Lewisham, NSW 2049",
+    "suburb": "Lewisham",
+    "lat": -33.896944,
+    "lng": 151.150278,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "coogee-bay-hotel",
+    "name": "Coogee Bay Hotel",
+    "address": "Coogee Bay Road, Coogee, NSW 2034",
+    "suburb": "Coogee",
+    "lat": -33.921053,
+    "lng": 151.256286,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "hornsby-rsl-club",
+    "name": "Hornsby RSL Club",
+    "address": "4 High Street, NSW 2077",
+    "suburb": "Hornsby",
+    "lat": -33.7047,
+    "lng": 151.0973,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "three-swallows-hotel",
+    "name": "Three Swallows Hotel",
+    "address": "342 Hume Highway, Bankstown, NSW 2200",
+    "suburb": "Bankstown",
+    "lat": -33.906205,
+    "lng": 151.035764,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "highfield-caringbah",
+    "name": "Highfield Caringbah",
+    "address": "Mackay Street, Caringbah, NSW 2229",
+    "suburb": "Caringbah",
+    "lat": -34.042421,
+    "lng": 151.124036,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "oaks",
+    "name": "The Oaks",
+    "address": "Military Road, Neutral Bay, NSW 2089",
+    "suburb": "Neutral Bay",
+    "lat": -33.830153,
+    "lng": 151.219316,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "ashfield-hotel",
+    "name": "Ashfield Hotel",
+    "address": "Liverpool Road, Ashfield, NSW 2131",
+    "suburb": "Ashfield",
+    "lat": -33.889772,
+    "lng": 151.126077,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "chamberlain-hotel-c-bar",
+    "name": "Chamberlain Hotel (C-Bar)",
+    "address": "Campbell Street, Haymarket, NSW 2000",
+    "suburb": "Haymarket",
+    "lat": -33.879231,
+    "lng": 151.207271,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "kx-billiards-club-kx",
+    "name": "KX Billiards Club KX台球俱乐部",
+    "address": "Botany Road, Alexandria, NSW 2017",
+    "suburb": "Alexandria",
+    "lat": -33.90111,
+    "lng": 151.200585,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "summer-hill-hotel",
+    "name": "Summer Hill Hotel",
+    "address": "1 Lackey Street, Summer Hill, NSW 2130",
+    "suburb": "Summer Hill",
+    "lat": -33.890438,
+    "lng": 151.138233,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "carlisle-castle-hotel",
+    "name": "Carlisle Castle Hotel",
+    "address": "17-19 Albermarle Street, Newtown, NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.895316,
+    "lng": 151.176444,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "city-heroes-billiards-townhall",
+    "name": "City Heroes Billiards Townhall",
+    "address": "George Street, Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.875163,
+    "lng": 151.206341,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "newtown-hotel",
+    "name": "The Newtown Hotel",
+    "address": "174 King Street, Newtown, NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.894205,
+    "lng": 151.182845,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "marlborough-hotel",
+    "name": "The Marlborough Hotel",
+    "address": "145 King Street, Newtown, NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.893319,
+    "lng": 151.183292,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "madison-hotel",
+    "name": "Madison Hotel",
+    "address": "Randle Street, Surry Hills, NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.885728,
+    "lng": 151.20733,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "city-heroes-billiards-burwood",
+    "name": "City Heroes Billiards Burwood",
+    "address": "Belmore Street, Burwood, NSW 2134",
+    "suburb": "Burwood",
+    "lat": -33.87842,
+    "lng": 151.102158,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "celestial-billiards",
+    "name": "Celestial Billiards",
+    "address": "Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.875957,
+    "lng": 151.206487,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "rack-and-roll-billiards",
+    "name": "Rack and Roll Billiards",
+    "address": "Bourke Road, Alexandria, NSW 2015",
+    "suburb": "Alexandria",
+    "lat": -33.905417,
+    "lng": 151.202514,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "botany-view-hotel",
+    "name": "Botany View Hotel",
+    "address": "597 King Street, Newtown, NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.905859,
+    "lng": 151.180764,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "canterbury-hotel",
+    "name": "Canterbury Hotel",
+    "address": "Pipeline Link Fire Trail, Kurnell, NSW 2231",
+    "suburb": "Kurnell",
+    "lat": -34.016277,
+    "lng": 151.229626,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "golden-barley-hotel",
+    "name": "Golden Barley Hotel",
+    "address": "165-169 Edgeware Road, Enmore, NSW 2042",
+    "suburb": "Enmore",
+    "lat": -33.904736,
+    "lng": 151.173067,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "miranda-hotel",
+    "name": "Miranda Hotel",
+    "address": "Kiora Lane, Miranda, NSW 2228",
+    "suburb": "Miranda",
+    "lat": -34.034435,
+    "lng": 151.101296,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "royal-bondi",
+    "name": "The Royal Bondi",
+    "address": "Denham Street, Bondi, NSW 2026",
+    "suburb": "Bondi",
+    "lat": -33.894807,
+    "lng": 151.268687,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "smithfield-tavern",
+    "name": "Smithfield Tavern",
+    "address": "677a The Horsley Drive, Smithfield, NSW 2165",
+    "suburb": "Smithfield",
+    "lat": -33.853314,
+    "lng": 150.940373,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "golden-sheaf",
+    "name": "The Golden Sheaf",
+    "address": "429 New South Head Road, Double Bay, NSW 2028",
+    "suburb": "Double Bay",
+    "lat": -33.877655,
+    "lng": 151.243511,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "hotel-rockdale",
+    "name": "Hotel Rockdale",
+    "address": "Princes Highway, Rockdale, NSW 2216",
+    "suburb": "Rockdale",
+    "lat": -33.953443,
+    "lng": 151.13727,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "railway-hotel-fairfield",
+    "name": "The Railway Hotel Fairfield",
+    "address": "Council Lane, Fairfield, NSW 2165",
+    "suburb": "Fairfield",
+    "lat": -33.871462,
+    "lng": 150.95663,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "hurstville-ritz-hotel-sydney",
+    "name": "Hurstville Ritz Hotel",
+    "address": "",
+    "suburb": "Sydney",
+    "lat": -33.965824,
+    "lng": 151.101622,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "montague-hotel",
+    "name": "The Montague Hotel",
+    "address": "Illawarra Road, Marrickville, NSW 2204",
+    "suburb": "Marrickville",
+    "lat": -33.911105,
+    "lng": 151.155503,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "lakes-hotel",
+    "name": "Lakes Hotel",
+    "address": "Gardeners Road, Rosebery, NSW 2018",
+    "suburb": "Rosebery",
+    "lat": -33.922947,
+    "lng": 151.206529,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "friend-in-hand-hotel",
+    "name": "Friend in Hand Hotel",
+    "address": "58 Cowper St, Glebe NSW 2037",
+    "suburb": "Glebe",
+    "lat": -33.881348,
+    "lng": 151.192662,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": "Two pool tables. Classic Aussie pub vibes in Glebe."
+  },
+  {
+    "id": "toxteth",
+    "name": "The Toxteth",
+    "address": "Ferry Road, Glebe, NSW 2037",
+    "suburb": "Glebe",
+    "lat": -33.8768,
+    "lng": 151.1849,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "cocos-on-the-beach",
+    "name": "Coco's On The Beach",
+    "address": "376 Bay Street, Brighton-Le-Sands, NSW 2216",
+    "suburb": "Brighton-Le-Sands",
+    "lat": -33.96009,
+    "lng": 151.15654,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "cityheroes-billiards-haymarket",
+    "name": "Cityheroes Billiards Haymarket",
+    "address": "Harbour Street, Sydney, NSW 2000",
+    "suburb": "Sydney",
+    "lat": -33.876967,
+    "lng": 151.203661,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "q-billiard-sydney",
+    "name": "Q Billiard",
+    "address": "",
+    "suburb": "Sydney",
+    "lat": -33.878816,
+    "lng": 151.204463,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "meridian-hotel",
+    "name": "Meridian Hotel",
+    "address": "220 Forest Road, Hurstville, NSW 2220",
+    "suburb": "Hurstville",
+    "lat": -33.967358,
+    "lng": 151.104627,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "black-house-gaming-waterloo-wy-gaming",
+    "name": "Black House Gaming Waterloo (WY Gaming)",
+    "address": "Powell Street, Waterloo, NSW 2017",
+    "suburb": "Waterloo",
+    "lat": -33.901952,
+    "lng": 151.207683,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "hotel-regent-sydney",
+    "name": "Hotel Regent Sydney",
+    "address": "Redfern Street, Redfern, NSW 2016",
+    "suburb": "Redfern",
+    "lat": -33.892335,
+    "lng": 151.200248,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [],
+    "status": "unverified",
+    "source": "google-maps-import",
+    "lastVerified": "",
+    "notes": ""
+  },
+  {
+    "id": "union-hotel-newtown",
+    "name": "The Union Hotel",
+    "address": "576 King St, Newtown NSW 2042",
+    "suburb": "Newtown",
+    "lat": -33.9015,
+    "lng": 151.1743,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "\\$1 per game Thursdays and Sundays",
+      "freeNights": [
+        "Tuesday"
+      ],
+      "compNights": []
+    },
+    "features": [
+      "free pool",
+      "food available",
+      "late night",
+      "live music"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Free pool on Tuesdays, \\$1 games on Thursdays and Sundays."
+  },
+  {
+    "id": "darlo-bar-darlinghurst",
+    "name": "Darlo Bar",
+    "address": "306 Liverpool St, Darlinghurst NSW 2010",
+    "suburb": "Darlinghurst",
+    "lat": -33.8787,
+    "lng": 151.2157,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [
+        "Sunday"
+      ],
+      "compNights": [
+        "Tuesday"
+      ]
+    },
+    "features": [
+      "free pool",
+      "comp night",
+      "food available"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Free pool comp on Tuesday nights. Free tables on Sundays."
+  },
+  {
+    "id": "kinselas-hotel-darlinghurst",
+    "name": "Kinselas Hotel",
+    "address": "383 Bourke St, Darlinghurst NSW 2010",
+    "suburb": "Darlinghurst",
+    "lat": -33.8789,
+    "lng": 151.2172,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "late night",
+      "food available"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Art deco venue in a former funeral parlour at Taylor Square. Billiards area with high ornate ceilings."
+  },
+  {
+    "id": "clock-hotel-surry-hills",
+    "name": "The Clock Hotel",
+    "address": "470 Crown St, Surry Hills NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.8854,
+    "lng": 151.2139,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "outdoor area"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Pool room available. Street Bar, Whiskey Room, courtyard, and balcony."
+  },
+  {
+    "id": "dolphin-hotel-surry-hills",
+    "name": "The Dolphin Hotel",
+    "address": "412 Crown St, Surry Hills NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.8847,
+    "lng": 151.2144,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Dedicated pool room. Classic Surry Hills pub."
+  },
+  {
+    "id": "goros-surry-hills",
+    "name": "Goros",
+    "address": "84-86 Mary St, Surry Hills NSW 2010",
+    "suburb": "Surry Hills",
+    "lat": -33.8835,
+    "lng": 151.2065,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "late night"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Tokyo dive bar vibes. Pool, retro arcade games, karaoke. Japanese street food."
+  },
+  {
+    "id": "toxteth-hotel-glebe",
+    "name": "Toxteth Hotel",
+    "address": "345 Glebe Point Rd, Glebe NSW 2037",
+    "suburb": "Glebe",
+    "lat": -33.8762,
+    "lng": 151.1837,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "comp night",
+      "food available"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Pool comps, trivia, badge draws and meat raffles."
+  },
+  {
+    "id": "golden-barley-hotel-enmore",
+    "name": "The Golden Barley Hotel",
+    "address": "165 Edgeware Rd, Enmore NSW 2042",
+    "suburb": "Enmore",
+    "lat": -33.9005,
+    "lng": 151.1694,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "outdoor area",
+      "live music"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Beer garden, bistro, live music and pool tables."
+  },
+  {
+    "id": "exchange-hotel-balmain",
+    "name": "Exchange Hotel",
+    "address": "94 Beattie St, Balmain NSW 2041",
+    "suburb": "Balmain",
+    "lat": -33.8571,
+    "lng": 151.178,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "\\$1 pool on Sunday, Monday and Tuesday",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "happy hour",
+      "food available"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "\\$1 pool on Sunday, Monday and Tuesday."
+  },
+  {
+    "id": "slip-inn-sydney",
+    "name": "Slip Inn",
+    "address": "111 Sussex St, Sydney NSW 2000",
+    "suburb": "Sydney CBD",
+    "lat": -33.8688,
+    "lng": 151.2038,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "outdoor area"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Pool tables in the Slip Bar area. Heritage-listed building."
+  },
+  {
+    "id": "cheers-bar-sydney",
+    "name": "Cheers Bar & Grill",
+    "address": "561 George St, Sydney NSW 2000",
+    "suburb": "Sydney CBD",
+    "lat": -33.8756,
+    "lng": 151.2055,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "late night"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "24-hour sports bar. Pool tables on the mezzanine level."
+  },
+  {
+    "id": "star-bar-sydney",
+    "name": "Star Bar",
+    "address": "600 George St, Sydney NSW 2000",
+    "suburb": "Sydney CBD",
+    "lat": -33.8773,
+    "lng": 151.2051,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "late night"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Pool tables on main floor and in the basement. Open late most nights."
+  },
+  {
+    "id": "rag-and-famish-hotel-north-sydney",
+    "name": "Rag & Famish Hotel",
+    "address": "199 Miller St, North Sydney NSW 2060",
+    "suburb": "North Sydney",
+    "lat": -33.8388,
+    "lng": 151.2074,
+    "tables": {
+      "count": 2,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "\\$3 per game",
+      "happyHour": "Free pool Thursdays 6pm-midnight with jug purchase",
+      "freeNights": [
+        "Thursday"
+      ],
+      "compNights": []
+    },
+    "features": [
+      "free pool",
+      "food available",
+      "outdoor area"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Pool tables upstairs on level 2. \\$3/game, free Thursdays with jug purchase."
+  },
+  {
+    "id": "buena-vista-hotel-mosman",
+    "name": "Buena Vista Hotel",
+    "address": "76 Middle Head Rd, Mosman NSW 2088",
+    "suburb": "Mosman",
+    "lat": -33.8289,
+    "lng": 151.2432,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Sports bar with pool table and TAB facilities."
+  },
+  {
+    "id": "new-brighton-hotel-manly",
+    "name": "New Brighton Hotel",
+    "address": "71 The Corso, Manly NSW 2095",
+    "suburb": "Manly",
+    "lat": -33.7964,
+    "lng": 151.2862,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "outdoor area"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Pool table in the Shark Bar. Four-level entertainment venue."
+  },
+  {
+    "id": "collector-hotel-parramatta",
+    "name": "The Collector Hotel",
+    "address": "100 George St, Parramatta NSW 2150",
+    "suburb": "Parramatta",
+    "lat": -33.8148,
+    "lng": 151.0035,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Sports bar with TAB. Entry via Smith St."
+  },
+  {
+    "id": "banksia-hotel-banksia",
+    "name": "Banksia Hotel",
+    "address": "288 Princes Hwy, Banksia NSW 2216",
+    "suburb": "Banksia",
+    "lat": -33.9452,
+    "lng": 151.142,
+    "tables": {
+      "count": 1,
+      "brands": [],
+      "feltColour": "",
+      "feltNotes": ""
+    },
+    "pricing": {
+      "standard": "",
+      "happyHour": "",
+      "freeNights": [],
+      "compNights": []
+    },
+    "features": [
+      "food available",
+      "live music"
+    ],
+    "status": "unverified",
+    "source": "community",
+    "lastVerified": "",
+    "notes": "Pool table, live music, trivia nights. Southwest Sydney pub."
   }
 ]

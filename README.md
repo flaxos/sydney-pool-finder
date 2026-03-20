@@ -2,7 +2,7 @@
 
 Find pool tables across Sydney. Filter by suburb, table count, brand, pricing, and vibe.
 
-Built as a community tool — inspired by [Steve Savona's Google My Maps project](https://www.google.com/maps/d/u/0/viewer?mid=189NmdRJKmw4jtRT4cT_ehq-4evUc9q4) tracking every venue in Sydney with a pool table.
+Built as a community tool — inspired by a [community Google My Maps project](https://www.google.com/maps/d/u/0/viewer?mid=189NmdRJKmw4jtRT4cT_ehq-4evUc9q4) tracking every venue in Sydney with a pool table.
 
 ## Quick Start
 

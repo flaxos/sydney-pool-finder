@@ -1,4 +1,5 @@
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
+import { useEffect } from 'react'
+import { MapContainer, TileLayer, Marker, Popup, CircleMarker, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
@@ -17,13 +18,29 @@ function createMarkerIcon(venue) {
   })
 }
 
-export function Map({ venues, onSelectVenue, selectedVenue }) {
+export function Map({ venues, onSelectVenue, selectedVenue, userPosition }) {
   return (
     <MapContainer center={SYDNEY_CENTER} zoom={DEFAULT_ZOOM} className="z-0">
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+      {userPosition && (
+        <CircleMarker
+          center={[userPosition.lat, userPosition.lng]}
+          radius={10}
+          pathOptions={{
+            color: '#3b82f6',
+            fillColor: '#3b82f6',
+            fillOpacity: 0.35,
+            weight: 2,
+          }}
+        >
+          <Popup>
+            <span className="text-sm font-medium">You are here</span>
+          </Popup>
+        </CircleMarker>
+      )}
       {venues.map((venue) => (
         <Marker
           key={venue.id}
@@ -55,6 +72,8 @@ export function Map({ venues, onSelectVenue, selectedVenue }) {
 
 function FlyToVenue({ venue }) {
   const map = useMap()
-  map.flyTo([venue.lat, venue.lng], 15, { duration: 0.5 })
+  useEffect(() => {
+    map.flyTo([venue.lat, venue.lng], 15, { duration: 0.5 })
+  }, [venue, map])
   return null
 }

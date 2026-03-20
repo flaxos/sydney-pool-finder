@@ -4,7 +4,7 @@
 
 A web app for finding pool tables across Sydney. Inspired by a community-maintained Google My Maps project that manually tracks venues with pool tables. This app aims to make that data searchable, filterable, and crowd-sourceable.
 
-**Owner:** Flax
+**Owner:** maintainer
 **Stack:** React + Vite, Leaflet (OpenStreetMap), TailwindCSS, JSON flat-file data (upgrade path to SQLite/Supabase later)
 **Target:** Mobile-first responsive web app, deployable as a static site or PWA
 
@@ -43,7 +43,7 @@ sydney-pool-finder/
 │       └── map.css         # Leaflet overrides, custom marker styles
 └── data/
     ├── schema.md           # Venue data schema docs
-    └── seed-venues.json    # Raw seed data (Steve's map, manually converted)
+    └── seed-venues.json    # Raw seed data (Google My Maps import, manually converted)
 ```
 
 ---
@@ -89,7 +89,7 @@ Each venue is a JSON object:
 - [ ] Venue markers with popup showing name, table count, suburb
 - [ ] Venue list panel (sidebar on desktop, bottom sheet on mobile)
 - [ ] Filter by: suburb, number of tables (1 / multiple)
-- [ ] Seed data from Steve's Google My Maps (manual conversion)
+- [ ] Seed data from Google My Maps (manual conversion)
 - [ ] Mobile-responsive layout
 
 ### v0.2
@@ -138,7 +138,7 @@ Each venue is a JSON object:
 
 ## Deployment Notes
 
-- Target: static hosting (GitHub Pages, Cloudflare Pages, or self-hosted on Flax's lab via Nginx/Caddy).
+- Target: static hosting (GitHub Pages, Cloudflare Pages, or self-hosted via Nginx/Caddy).
 - `vite build` should produce a clean `/dist` folder ready to serve.
 - No environment variables needed for MVP (no API keys).
 
@@ -146,7 +146,7 @@ Each venue is a JSON object:
 
 ## Data Seeding
 
-Steve Savona's Google My Maps project is the initial data source:
+A community-maintained Google My Maps project is the initial data source:
 - URL: `https://www.google.com/maps/d/u/0/viewer?mid=189NmdRJKmw4jtRT4cT_ehq-4evUc9q4`
 - Legend: Blue marker = one table, 8-ball emoji = multiple tables
 - Manual conversion needed — export KML from Google My Maps, parse venue names + coordinates, enrich with table/pricing data over time.
@@ -161,4 +161,4 @@ KML export approach:
 
 ## Context
 
-This originated from a Slack channel (`#zip-sydney-pool`) where a colleague (Steve Savona) shared his Google My Maps project tracking every pool table venue in Sydney. Community feedback requested: table brand tracking, happy hour / pricing info, felt colour, comp nights. This app is the "someone who knows how to code" answer to that.
+This originated from a Slack channel where a colleague shared their Google My Maps project tracking every pool table venue in Sydney. Community feedback requested: table brand tracking, happy hour / pricing info, felt colour, comp nights. This app is the "someone who knows how to code" answer to that.

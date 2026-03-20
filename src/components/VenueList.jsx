@@ -23,7 +23,12 @@ export function VenueList({ venues, onSelectVenue, selectedId }) {
               {venue.tables.count} table{venue.tables.count !== 1 ? 's' : ''}
             </span>
           </div>
-          <p className="text-xs text-gray-500 mt-0.5">{venue.suburb}</p>
+          <p className="text-xs text-gray-500 mt-0.5">
+            {venue.suburb}
+            {venue.distance != null && (
+              <span className="text-gray-400 ml-1.5">{venue.distance} km away</span>
+            )}
+          </p>
           {venue.pricing.standard && (
             <p className="text-xs text-gray-400 mt-0.5">{venue.pricing.standard}</p>
           )}
