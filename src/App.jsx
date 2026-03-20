@@ -225,6 +225,16 @@ function App() {
               venues={venues}
               onSelectVenue={handleSelectVenue}
               selectedId={selectedVenue?.id}
+              onClearFilters={() => {
+                setSearch('')
+                setSuburb('')
+                setTableFilter('')
+                setFeatureFilters([])
+                setFreeTonight(false)
+                setCompTonight(false)
+                setHappyHour(false)
+                setBrandFilter('')
+              }}
             />
           )}
         </div>

@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, CircleMarker, useMap } from 'react-leaflet'
+import MarkerClusterGroup from 'react-leaflet-cluster'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
@@ -41,30 +42,37 @@ export function Map({ venues, onSelectVenue, selectedVenue, userPosition }) {
           </Popup>
         </CircleMarker>
       )}
-      {venues.map((venue) => (
-        <Marker
-          key={venue.id}
-          position={[venue.lat, venue.lng]}
-          icon={createMarkerIcon(venue)}
-          eventHandlers={{
-            click: () => onSelectVenue(venue),
-          }}
-        >
-          <Popup>
-            <div className="text-sm">
-              <strong>{venue.name}</strong>
-              <br />
-              {venue.suburb} &middot; {venue.tables.count} table{venue.tables.count !== 1 ? 's' : ''}
-              {venue.pricing.standard && (
-                <>
-                  <br />
-                  {venue.pricing.standard}
-                </>
-              )}
-            </div>
-          </Popup>
-        </Marker>
-      ))}
+      <MarkerClusterGroup
+        chunkedLoading
+        maxClusterRadius={50}
+        spiderfyOnMaxZoom={true}
+        showCoverageOnHover={false}
+      >
+        {venues.map((venue) => (
+          <Marker
+            key={venue.id}
+            position={[venue.lat, venue.lng]}
+            icon={createMarkerIcon(venue)}
+            eventHandlers={{
+              click: () => onSelectVenue(venue),
+            }}
+          >
+            <Popup>
+              <div className="text-sm">
+                <strong>{venue.name}</strong>
+                <br />
+                {venue.suburb} &middot; {venue.tables.count} table{venue.tables.count !== 1 ? 's' : ''}
+                {venue.pricing.standard && (
+                  <>
+                    <br />
+                    {venue.pricing.standard}
+                  </>
+                )}
+              </div>
+            </Popup>
+          </Marker>
+        ))}
+      </MarkerClusterGroup>
       {selectedVenue && <FlyToVenue venue={selectedVenue} />}
     </MapContainer>
   )
