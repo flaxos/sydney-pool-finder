@@ -16,7 +16,7 @@ export async function submitVenue(data) {
     venue_name: data.name,
     address: data.address || '',
     suburb: data.suburb || '',
-    tables_count: data.tablesCount || 1,
+    tables_count: data.tableCount || 1,
     pricing: data.pricing || '',
     notes: data.notes || '',
   })
